@@ -1,0 +1,14 @@
+{
+  "id": "safelight.keywords",
+  "name": "Keywords",
+  "version": "1.0.0",
+  "description": "All keywords in the project with photo counts. Click to filter.",
+  "author": "Anthony Reimche",
+  "main": "dist/index.js",
+  "license": "GPL-3.0-only",
+  "categories": ["library", "metadata"],
+  "keywords": ["keywords", "tags", "filter", "library", "metadata"],
+  "repository": "anthonyreimche/Keywords",
+  "worksWith": ["anthonyreimche/Library"],
+  "minAppVersion": "3.2.0"
+}
