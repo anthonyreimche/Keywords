@@ -1,4 +1,4 @@
-// A stand-in Safelight API over real React and zustand. The catalog store holds
+// A stand-in Safelight API over real React and zustand. The catalogue store holds
 // the project's photos; the UI store holds the Library filter with core's
 // rating, flag and label fields beside the keywords, and merges setFilter
 // patches the way core's does. Every setFilter patch is recorded, and so is

@@ -1,7 +1,7 @@
 {
   "id": "safelight.keywords",
   "name": "Keywords",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "All keywords in the project with photo counts. Click to filter.",
   "author": "Anthony Reimche",
   "main": "dist/index.js",

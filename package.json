@@ -1,7 +1,7 @@
 {
   "name": "safelight-keywords",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Keywords extension for Safelight: every keyword in the project with photo counts; click one to filter the grid.",
   "type": "module",
   "scripts": {

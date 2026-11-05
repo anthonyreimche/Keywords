@@ -1,4 +1,4 @@
-// The Keywords panel in a DOM, over real zustand catalog and UI stores: the
+// The Keywords panel in a DOM, over real zustand catalogue and UI stores: the
 // empty state, keywords counted across photos and listed most used first,
 // search, clicking a keyword to add it to the grid's AND filter and again to
 // drop it, the chips and Clear, and the panel following store changes made
@@ -132,7 +132,7 @@ describe("KeywordsPanel", () => {
     expect(items().every((b) => b.className === CLASSES.item)).toBe(true);
   });
 
-  it("follows photos and keywords changing in the catalog", () => {
+  it("follows photos and keywords changing in the catalogue", () => {
     const rig = mount();
     act(() => rig.catalog.setState({ photos: [{ keywords: ["dog"] }, { keywords: ["dog", "park"] }] }));
     expect(rows()).toEqual([
